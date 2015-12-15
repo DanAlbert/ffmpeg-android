@@ -37,6 +37,7 @@ make clean
 --disable-ffprobe \
 --enable-gpl \
 --enable-yasm \
+--yasmexe=$ANDROID_NDK_ROOT_PATH/host-tools/bin/yasm \
 --disable-doc \
 --disable-shared \
 --enable-static \
